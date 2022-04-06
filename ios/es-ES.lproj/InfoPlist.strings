@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  rollbox
+
+  Created by Vadim Vereketa on 27.04.2021.
+  
+*/
+NSCameraUsageDescription = "Esta aplicación requiere acceso a la cámara. Permite tomar una nueva foto para los revestimientos.";
+NSContactsUsageDescription = "La aplicación requiere contactos para extender la conexión de sus amigos en el RolBox. La aplicación compara su lista de contactos con los usuarios de RolBox para saber quién puede agregarse como amigo. No se guardará la información de los contactos.";
+NSPhotoLibraryUsageDescription = "Esta aplicación requiere acceso a la biblioteca de fotos. Permite elegir una foto existente de la biblioteca para la cubierta.";

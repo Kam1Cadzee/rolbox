@@ -1,0 +1,14 @@
+{
+  "react-native": {
+    "analytics_auto_collection_enabled": false,
+    "messaging_ios_auto_register_for_remote_messages": true,
+    "admob_android_app_id": "ca-app-pub-2960614240062252~3937816133",
+    "admob_ios_app_id": "ca-app-pub-2960614240062252~9062150305",
+    "admob_delay_app_measurement_init": true,
+    "crashlytics_debug_enabled": true,
+    "crashlytics_disable_auto_disabler": true,
+    "crashlytics_auto_collection_enabled": true,
+    "crashlytics_is_error_generation_on_js_crash_enabled": true,
+    "crashlytics_javascript_exception_handler_chaining_enabled": false
+  }
+}

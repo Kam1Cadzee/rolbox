@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RolBox</string>
+    <string name="facebook_app_id">524140068966069</string>
+    <string name="title_activity_share">RolBox</string>
+    <string name="friendRequestTitle">Friend request</string>
+    <string name="friendRequestBody">%1$s wants to add you as a friend</string>
+
+    <string name="createEventTitle">Invitation</string>
+    <string name="createEventBody">You invited to event %1$s</string>
+
+    <string name="removeParticipantTitle">%1$s</string>
+    <string name="removeParticipantBody">Invite to %1$s was cancelled</string>
+
+    <string name="deleteEventTitle">%1$s</string>
+    <string name="deleteEventBody">Event %1$s was cancelled</string>
+
+    <string name="answerEventTitle">%1$s</string>
+    <string name="answerEventBody">%1$s has replied “%2$s” to invitation.</string>
+</resources>

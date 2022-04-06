@@ -1,0 +1,14 @@
+friendRequestTitle = "Solicitud de amistad";
+friendRequestBody = "%@ quiere agregarte como amigo";
+
+createEventTitle = "Invitación";
+createEventBody = "Invitaste al evento %@";
+
+removeParticipantTitle = "%@";
+removeParticipantBody = "Se canceló la invitación %@";
+
+deleteEventTitle = "%@";
+deleteEventBody = "El evento %@ fue cancelado";
+
+answerEventTitle = "%@";
+answerEventBody = "%@ ha respondido “%@” a la invitación.";

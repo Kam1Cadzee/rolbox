@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {
+      "filename" : "add_picture_icon.svg",
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.svg-image"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

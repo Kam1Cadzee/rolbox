@@ -1,0 +1,13 @@
+friendRequestTitle = "Запрос в друзья";
+friendRequestBody = "%@ хочет добавить тебя в друзья";
+createEventTitle = "Приглашение";
+createEventBody = "Вам отправлено пришлашение на %@";
+
+removeParticipantTitle = "%@";
+removeParticipantBody = "Приглашение %@ было отменено";
+
+deleteEventTitle = "%@";
+deleteEventBody = "Событие %@ было отменено";
+
+answerEventTitle = "%@";
+answerEventBody = "%@ ответил “%@” на приглашение.";

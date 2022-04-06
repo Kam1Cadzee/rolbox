@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "211411402583",
+    "project_id": "rolbox-app",
+    "storage_bucket": "rolbox-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211411402583:android:4b1cfb5a01dde22d370812",
+        "android_client_info": {
+          "package_name": "com.rolbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211411402583-04ltdcoofl59t005o66tlcq63b709dhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rolbox",
+            "certificate_hash": "d309fc3fec2ffde4c9b5fea6e350acf526055513"
+          }
+        },
+        {
+          "client_id": "211411402583-fodh90rlmmc066bsqhqv0e7fqj8koobh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rolbox",
+            "certificate_hash": "1accaf4c0efb5880441560a25cff4f2dfb52d856"
+          }
+        },
+        {
+          "client_id": "211411402583-ihnm8b9s93rmp8tthurhbd5nuggoql4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rolbox",
+            "certificate_hash": "d4ac66cde9f1e3ad6128839eb3df70a299aa62c7"
+          }
+        },
+        {
+          "client_id": "211411402583-c451f5seaj9s6hjirb43tk8sp0m19vtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyNDB7L2k8I8LP9fj4tUfMW_2_VwqnDwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211411402583-c451f5seaj9s6hjirb43tk8sp0m19vtg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "211411402583-al7tg1opmrk8t21sb2i956oc3b6cmmck.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.huspi.rolbox",
+                "app_store_id": "1557678129"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

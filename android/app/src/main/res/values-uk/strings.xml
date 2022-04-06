@@ -1,0 +1,16 @@
+<resources>
+    <string name="friendRequestTitle">Запит в друзі</string>
+    <string name="friendRequestBody">%1$s хоче додати тебе в друзі</string>
+
+    <string name="createEventTitle">Запрошення</string>
+    <string name="createEventBody">Вас запрошено на подію %1$s</string>
+
+    <string name="removeParticipantTitle">%1$s</string>
+    <string name="removeParticipantBody">Запрошення %1$s було скасовано</string>
+
+    <string name="deleteEventTitle">%1$s</string>
+    <string name="deleteEventBody">Подію %1$s було скасовано</string>
+
+    <string name="answerEventTitle">%1$s</string>
+    <string name="answerEventBody">%1$s відповів “%2$s” на запрошення.</string>
+</resources>

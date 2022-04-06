@@ -1,0 +1,17 @@
+<resources>
+    <string name="friendRequestTitle">Solicitud de amistad</string>
+    <string name="friendRequestBody">%1$s quiere agregarte como amigo</string>
+
+    <string name="createEventTitle">Invitación</string>
+    <string name="createEventBody">Invitaste al evento %1$s</string>
+
+    <string name="removeParticipantTitle">%1$s</string>
+    <string name="removeParticipantBody">Se canceló la invitación %1$s</string>
+
+    <string name="deleteEventTitle">%1$s</string>
+    <string name="deleteEventBody">El evento %1$s fue cancelado</string>
+    
+    <string name="answerEventTitle">%1$s</string>
+    <string name="answerEventBody">%1$s ha respondido "%2$s" a la invitación.</string>
+    
+</resources>

@@ -1,0 +1,10 @@
+rootProject.name = 'rolbox'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':react-native-androw'
+project(':react-native-androw').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-androw/android')
+include ':app', ':react-native-share-extension'
+project(':react-native-share-extension').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-share-extension/android')
+
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = file('../node_modules/react-native-push-notification/android')

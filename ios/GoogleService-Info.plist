@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>211411402583-pbbfgi7lhj4bh35l15t3e7321rodjfvk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.211411402583-pbbfgi7lhj4bh35l15t3e7321rodjfvk</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>211411402583-04ltdcoofl59t005o66tlcq63b709dhd.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCG-WQx13x1mfbsfFCV01mQXAdLFLj15Ps</string>
+	<key>GCM_SENDER_ID</key>
+	<string>211411402583</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rolbox</string>
+	<key>PROJECT_ID</key>
+	<string>rolbox-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rolbox-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:211411402583:ios:32d789b995c2dcad370812</string>
+</dict>
+</plist>

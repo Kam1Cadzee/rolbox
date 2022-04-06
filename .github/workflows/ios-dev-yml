@@ -1,0 +1,70 @@
+name: Build iOS adhoc
+
+on:
+  push:
+    branches:
+      - 'DEV/*'
+      - '!DEV/last'
+
+jobs:
+  build-ios-adhoc:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12.18.3'
+      - name: Install React Native CLI
+        run: |
+          yarn global add react-native-cli
+      - name: Install yarn dependencies
+        run: |
+          yarn install
+      - name: Building bundle
+        run: |
+          yarn react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle --assets-dest ios
+      - name: Install pod dependencies
+        run: |
+          cd ios && pod update MMKV && pod install --repo-update
+      - name: Update build number
+        run: |
+          cd ios
+          agvtool new-version -all ${{github.run_number}}
+      - name: Build ios
+        uses: yukiarrr/ios-build-action@v1.4.0
+        with:
+          project-path: ios/rollbox.xcodeproj
+          workspace-path: ios/rollbox.xcworkspace
+          certificate-password: w4oqGyzx0fCeo2ZxC74g
+          team-id: E2J8W9HEEC
+          p12-base64: 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
+          mobileprovision-path: |
+            ios/profiles/RolBox_AdHoc.mobileprovision
+            ios/profiles/RolBox_Notification_AdHoc.mobileprovision
+            ios/profiles/RolBox_Share_AdHoc.mobileprovision
+          export-options: ios/profiles/ExportOptions.plist
+          code-signing-identity: 'Apple Distribution: HUSPI SP Z O O (E2J8W9HEEC)'
+          export-method: ad-hoc
+          output-path: output/output.ipa
+          scheme: rollbox
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: artifact
+          path: output/output.ipa
+
+  upload-ios:
+    needs: build-ios-adhoc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: artifact
+      - name: upload artifact to Firebase App Distribution
+        uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+          appId: 1:40731907396:ios:4038461de7ec0b15d77311
+          token: 1//09KUa4gIIo5cOCgYIARAAGAkSNwF-L9IrNTudZ5ctH2RQMpqn0k2J3O1CCPGpCR30CEv5YKhXX3R1XXVkd0QlfTVww9-khKOvcuo
+          groups: rolbox_dev
+          file: output.ipa

@@ -1,0 +1,52 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "root": true,
+  "extends": ["plugin:react/recommended", "airbnb", "@react-native-community"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react/forbid-prop-types": [0],
+    "react/require-default-props": [0],
+    "global-require": [0],
+    "no-underscore-dangle": [0],
+    "import/no-unresolved": [0, {"caseSensitive": false}],
+    "import/extensions": [
+      0,
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/prefer-default-export": [0],
+    "react-hooks/exhaustive-deps": "warn",
+    "no-param-reassign": [2, {"props": false}],
+    "no-shadow": "warn",
+    "no-empty-pattern": "warn",
+    "react/no-array-index-key": "warn",
+    "react-native/no-inline-styles": [0],
+    "react/jsx-props-no-spreading": [0],
+    "react/jsx-fragments": [0]
+  }
+}
